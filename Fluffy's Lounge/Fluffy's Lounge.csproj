@@ -77,6 +77,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Tela Cadastro.resx">
       <DependentUpon>Tela Cadastro.cs</DependentUpon>
@@ -96,6 +97,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PetsCadastro.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

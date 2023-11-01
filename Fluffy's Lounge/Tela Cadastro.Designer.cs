@@ -29,152 +29,134 @@ namespace Fluffy_s_Lounge
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.Email = new System.Windows.Forms.Label();
-            this.Nome = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Senha = new System.Windows.Forms.Label();
-            this.Usuário = new System.Windows.Forms.Label();
-            this.Cadastrar = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.txt_nome = new System.Windows.Forms.TextBox();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_senha = new System.Windows.Forms.TextBox();
+            this.txt_cadastro = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_nameUser = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // panel1
+            // txt_nome
             // 
-            this.panel1.BackColor = System.Drawing.Color.Azure;
-            this.panel1.Controls.Add(this.Cadastrar);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.Senha);
-            this.panel1.Controls.Add(this.Usuário);
-            this.panel1.Controls.Add(this.txtSenha);
-            this.panel1.Controls.Add(this.txtUsuario);
-            this.panel1.Controls.Add(this.Nome);
-            this.panel1.Controls.Add(this.Email);
-            this.panel1.Location = new System.Drawing.Point(44, 43);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(528, 292);
-            this.panel1.TabIndex = 0;
+            this.txt_nome.Location = new System.Drawing.Point(461, 82);
+            this.txt_nome.Name = "txt_nome";
+            this.txt_nome.Size = new System.Drawing.Size(151, 20);
+            this.txt_nome.TabIndex = 0;
             // 
-            // txtSenha
+            // txt_email
             // 
-            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtSenha.ForeColor = System.Drawing.Color.Black;
-            this.txtSenha.Location = new System.Drawing.Point(200, 86);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(207, 31);
-            this.txtSenha.TabIndex = 7;
+            this.txt_email.Location = new System.Drawing.Point(463, 152);
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(151, 20);
+            this.txt_email.TabIndex = 1;
             // 
-            // txtUsuario
+            // textBox3
             // 
-            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuario.Location = new System.Drawing.Point(200, 42);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(207, 31);
-            this.txtUsuario.TabIndex = 6;
+            this.textBox3.Location = new System.Drawing.Point(461, 217);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(151, 20);
+            this.textBox3.TabIndex = 2;
             // 
-            // Email
+            // txt_senha
             // 
-            this.Email.AutoSize = true;
-            this.Email.BackColor = System.Drawing.Color.Transparent;
-            this.Email.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Email.Location = new System.Drawing.Point(83, 90);
-            this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(77, 27);
-            this.Email.TabIndex = 5;
-            this.Email.Text = "Email";
+            this.txt_senha.Location = new System.Drawing.Point(461, 283);
+            this.txt_senha.Name = "txt_senha";
+            this.txt_senha.Size = new System.Drawing.Size(151, 20);
+            this.txt_senha.TabIndex = 3;
             // 
-            // Nome
+            // txt_cadastro
             // 
-            this.Nome.AutoSize = true;
-            this.Nome.BackColor = System.Drawing.Color.Transparent;
-            this.Nome.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nome.Location = new System.Drawing.Point(90, 46);
-            this.Nome.Name = "Nome";
-            this.Nome.Size = new System.Drawing.Size(87, 27);
-            this.Nome.TabIndex = 4;
-            this.Nome.Text = "Nome:";
+            this.txt_cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cadastro.Location = new System.Drawing.Point(502, 320);
+            this.txt_cadastro.Name = "txt_cadastro";
+            this.txt_cadastro.Size = new System.Drawing.Size(75, 23);
+            this.txt_cadastro.TabIndex = 4;
+            this.txt_cadastro.Text = "Cadastrar";
+            this.txt_cadastro.UseVisualStyleBackColor = true;
+            this.txt_cadastro.Click += new System.EventHandler(this.txt_cadastro_Click);
             // 
-            // textBox1
+            // label1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(200, 176);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(207, 31);
-            this.textBox1.TabIndex = 11;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(463, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 18);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Nome";
             // 
-            // textBox2
+            // label2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(200, 132);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(207, 31);
-            this.textBox2.TabIndex = 10;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(463, 119);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 18);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Email";
             // 
-            // Senha
+            // txt_nameUser
             // 
-            this.Senha.AutoSize = true;
-            this.Senha.BackColor = System.Drawing.Color.Transparent;
-            this.Senha.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Senha.Location = new System.Drawing.Point(83, 180);
-            this.Senha.Name = "Senha";
-            this.Senha.Size = new System.Drawing.Size(94, 27);
-            this.Senha.TabIndex = 9;
-            this.Senha.Text = "Senha:";
+            this.txt_nameUser.AutoSize = true;
+            this.txt_nameUser.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_nameUser.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nameUser.Location = new System.Drawing.Point(463, 187);
+            this.txt_nameUser.Name = "txt_nameUser";
+            this.txt_nameUser.Size = new System.Drawing.Size(96, 18);
+            this.txt_nameUser.TabIndex = 7;
+            this.txt_nameUser.Text = "Name User";
             // 
-            // Usuário
+            // label4
             // 
-            this.Usuário.AutoSize = true;
-            this.Usuário.BackColor = System.Drawing.Color.Transparent;
-            this.Usuário.Font = new System.Drawing.Font("MS UI Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Usuário.Location = new System.Drawing.Point(26, 136);
-            this.Usuário.Name = "Usuário";
-            this.Usuário.Size = new System.Drawing.Size(151, 27);
-            this.Usuário.TabIndex = 8;
-            this.Usuário.Text = "Name User:";
-            // 
-            // Cadastrar
-            // 
-            this.Cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F);
-            this.Cadastrar.Location = new System.Drawing.Point(200, 235);
-            this.Cadastrar.Name = "Cadastrar";
-            this.Cadastrar.Size = new System.Drawing.Size(105, 39);
-            this.Cadastrar.TabIndex = 12;
-            this.Cadastrar.Text = "Cadastrar";
-            this.Cadastrar.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(463, 252);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 18);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Senha";
             // 
             // Tela_Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.panel1);
+            this.BackgroundImage = global::Fluffy_s_Lounge.Properties.Resources.PetsCadastro;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1012, 388);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txt_nameUser);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txt_cadastro);
+            this.Controls.Add(this.txt_senha);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_email);
+            this.Controls.Add(this.txt_nome);
             this.Name = "Tela_Cadastro";
             this.Text = "Tela_Cadastro";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label Senha;
-        private System.Windows.Forms.Label Usuário;
-        private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label Nome;
-        private System.Windows.Forms.Label Email;
-        private System.Windows.Forms.Button Cadastrar;
+        private System.Windows.Forms.TextBox txt_nome;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_senha;
+        private System.Windows.Forms.Button txt_cadastro;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label txt_nameUser;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
     }
 }

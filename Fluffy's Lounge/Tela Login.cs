@@ -19,7 +19,8 @@ namespace Fluffy_s_Lounge
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Tela_Cadastro Tela_Login = new Tela_Cadastro();
+            Tela_Login.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
