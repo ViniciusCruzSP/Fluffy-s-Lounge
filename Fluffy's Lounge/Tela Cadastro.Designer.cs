@@ -31,7 +31,7 @@ namespace Fluffy_s_Lounge
         {
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.txt_email = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.txt_cadastro = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,12 +54,12 @@ namespace Fluffy_s_Lounge
             this.txt_email.Size = new System.Drawing.Size(151, 20);
             this.txt_email.TabIndex = 1;
             // 
-            // textBox3
+            // txt_usuario
             // 
-            this.textBox3.Location = new System.Drawing.Point(461, 217);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 20);
-            this.textBox3.TabIndex = 2;
+            this.txt_usuario.Location = new System.Drawing.Point(461, 217);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(151, 20);
+            this.txt_usuario.TabIndex = 2;
             // 
             // txt_senha
             // 
@@ -137,7 +137,7 @@ namespace Fluffy_s_Lounge
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_cadastro);
             this.Controls.Add(this.txt_senha);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.txt_nome);
             this.Name = "Tela_Cadastro";
@@ -151,7 +151,7 @@ namespace Fluffy_s_Lounge
 
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.TextBox txt_email;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_usuario;
         private System.Windows.Forms.TextBox txt_senha;
         private System.Windows.Forms.Button txt_cadastro;
         private System.Windows.Forms.Label label2;
