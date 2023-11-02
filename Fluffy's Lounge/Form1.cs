@@ -24,5 +24,10 @@ namespace Fluffy_s_Lounge
             Tela_Login telaLogin = new Tela_Login();
             telaLogin.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

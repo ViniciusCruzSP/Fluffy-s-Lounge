@@ -25,15 +25,13 @@ namespace Fluffy_s_Lounge
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "Vinicius" && txtSenha.Text == "1234")
-            {
-                MessageBox.Show ("Seja bem vindo");
-            }
+            Dados Dados = new Dados();
+            Dados.Show();
+        }
 
-            else
-            {
-                MessageBox.Show("Usuário ou senha inválidos");
-            }
+        private void Tela_Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -77,7 +77,6 @@ namespace Fluffy_s_Lounge
             this.txt_cadastro.TabIndex = 4;
             this.txt_cadastro.Text = "Cadastrar";
             this.txt_cadastro.UseVisualStyleBackColor = true;
-            this.txt_cadastro.Click += new System.EventHandler(this.txt_cadastro_Click);
             // 
             // label1
             // 
@@ -142,6 +141,7 @@ namespace Fluffy_s_Lounge
             this.Controls.Add(this.txt_nome);
             this.Name = "Tela_Cadastro";
             this.Text = "Tela_Cadastro";
+            this.Load += new System.EventHandler(this.Tela_Cadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -127,6 +127,7 @@ namespace Fluffy_s_Lounge
             this.Controls.Add(this.label1);
             this.Name = "Tela_Login";
             this.Text = "Tela_Login";
+            this.Load += new System.EventHandler(this.Tela_Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
